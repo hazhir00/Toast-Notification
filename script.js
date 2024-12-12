@@ -18,5 +18,5 @@ function showToast(massage) {
 
     setTimeout(() => {
         toast.remove();
-    }, 6000);
+    }, 5500);
 }

@@ -114,7 +114,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    transform: translateX(100%);
+    transform: translateX(120%);
     animation: moveleft 0.5s linear forwards;
 }
 
@@ -147,7 +147,7 @@ body {
     height: 0.4em;
     background: green;
     animation: anim 5s linear forwards;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 5px 5px 5px;
 }
 
 @keyframes anim {
