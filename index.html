@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags-->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+        <meta name="author" content="Hazhir Naseri" />
+        <!-- Links -->
+        <!-- Style Sheet -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- Fav Icon -->
+        <link
+            rel="shortcut icon"
+            href="images/fav-icon.png"
+            type="image/x-icon"
+        />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        />
+        <!-- Title -->
+        <title>Toast Notification</title>
+    </head>
+    <body>
+        <!-- !Main Content -->
+        <div class="buttons">
+            <button onclick="showToast(successMassage)">Success</button>
+            <button onclick="showToast(errorMassage)">Error</button>
+            <button onclick="showToast(invalidMassage)">invalid</button>
+        </div>
+
+        <div id="toastBox"></div>
+        <!-- Script Tag -->
+        <script src="script.js"></script>
+    </body>
+</html>
